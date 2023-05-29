@@ -4,17 +4,22 @@ export default {
   theme: {
     extend: {
       colors: {
-        blue: '#1fb6ff',
-        purple: '#7e5bef',
-        pink: '#ff49db',
-        orange: '#ff7849',
-        green: '#13ce66',
-        yellow: '#ffc82c',
-        'gray-dark': '#273444',
-        gray: '#8492a6',
-        'gray-light': '#d3dce6',
+        primary: '#7462D0',
+        black: '#000000',
+        white: '#FFFFFF',
+        inactive_color: '#E2E2E2',
+        border_color: '#0B090B80',
+        primary_dark_color: '#10111D',
+        hard_dark_color: '#2A2933',
+        soft_dark_color: '#F1F1F1',
+        inactive_dark_color: '#33343A',
+        border_dark_color: '#CECECE80'
+
       },
-    },
+      fontFamily: {
+        Poppins: 'Poppins'
+      }
+    }
   },
-  plugins: [],
-};
+  plugins: []
+}

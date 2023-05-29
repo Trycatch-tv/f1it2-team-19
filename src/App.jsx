@@ -1,12 +1,9 @@
-import './App.css';
-
-function App() {
+function App () {
   return (
     <>
-      <div></div>
-      <h1>Vite + React</h1>
+      <h1 className="text-5xl text-primary font-bold font-Poppins">Vite + React</h1>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
