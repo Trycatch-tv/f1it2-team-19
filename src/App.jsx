@@ -1,8 +1,9 @@
+import Login from './pages/login/Login.jsx'
 function App () {
   return (
-    <>
-      <h1 className="text-5xl text-primary font-bold font-Poppins">Vite + React</h1>
-    </>
+      <main className='font-Poppins'>
+        <Login></Login>
+      </main>
   )
 }
 

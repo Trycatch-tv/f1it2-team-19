@@ -6,8 +6,9 @@ export default {
       colors: {
         primary: '#7462D0',
         black: '#000000',
-        white: '#FFFFFF',
+        soft_color: '#FFFFFF',
         inactive_color: '#E2E2E2',
+        backgroud: '#EEEBEF',
         border_color: '#0B090B80',
         primary_dark_color: '#10111D',
         hard_dark_color: '#2A2933',
