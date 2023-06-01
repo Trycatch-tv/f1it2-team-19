@@ -8,7 +8,7 @@ export default {
         black: '#000000',
         soft_color: '#FFFFFF',
         inactive_color: '#E2E2E2',
-        backgroud: '#EEEBEF',
+        background: '#EEEBEF',
         border_color: '#0B090B80',
         primary_dark_color: '#10111D',
         hard_dark_color: '#2A2933',
