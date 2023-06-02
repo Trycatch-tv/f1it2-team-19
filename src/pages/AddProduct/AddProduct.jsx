@@ -2,7 +2,7 @@ import Input from './Components/Input'
 import Form from './Components/Form'
 export default function AddProduct () {
   return (
-    <section className=" h-[468px] mx-8 p-8 border-2 border-border_color rounded-lg flex">
+    <section className="w-full h-[468px] p-8 border-2 border-border_color rounded-lg2 flex">
       <div className="w-4/5 flex flex-wrap gap-20">
         <Input heading='Nombre' placeholder='Moto G8' />
         <Input heading='Modelo' placeholder='XT2830' />
@@ -14,13 +14,13 @@ export default function AddProduct () {
         <Form heading='Marca' value1='Motorola' value2='Samsung' value3='Iphone'/>
       </div>
       <div className='w-1/5 flex flex-col gap-20'>
-        <form action="" className='w-[224px] h-auto border  border-border_color rounded-lg overflow-hidden bg-soft_color items-center flex flex-col gap-4'>
+        <form action="" className='w-[224px] h-auto border  border-border_color rounded-lg2 overflow-hidden bg-soft_color items-center flex flex-col gap-4'>
           <label htmlFor="" className='bg-primary w-full h-[38px] flex items-center justify-center text-soft_color out'>
             Descripción
           </label>
           <textarea className='outline-none px-2 w-[220px] h-[184px]' placeholder='Escribe una descripción breve' name="" id=""></textarea>
         </form>
-        <button className='bg-primary w-[220px] h-[38px] rounded-lg text-soft_color mt-2'>Guardar</button>
+        <button className='bg-primary w-[220px] h-[38px] rounded-lg2 text-soft_color mt-2'>Guardar</button>
       </div>
     </section>
   )

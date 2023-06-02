@@ -19,6 +19,9 @@ export default {
       },
       fontFamily: {
         Poppins: 'Poppins'
+      },
+      borderRadius: {
+        lg2: '10px'
       }
     }
   },
