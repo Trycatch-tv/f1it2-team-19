@@ -1,8 +1,15 @@
+// import Login from './pages/login/Login.jsx'
+// import AddProduct from './pages/AddProduct/AddProduct'
+// import AddInventory from './pages/AddInventory/AddInventory'
+import Product from './pages/Product/Product'
 function App () {
   return (
-    <>
-      <h1 className="text-5xl text-primary font-bold font-Poppins">Vite + React</h1>
-    </>
+      <main className='font-Poppins w-full min-h-screen px-20 bg-background grid place-items-center gap-20'>
+        {/* <Login></Login> */}
+        {/* <AddProduct></AddProduct> */}
+        {/* <AddInventory></AddInventory> */}
+        <Product></Product>
+      </main>
   )
 }
 
