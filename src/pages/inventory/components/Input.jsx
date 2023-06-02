@@ -1,11 +1,39 @@
 // eslint-disable-next-line react/prop-types
-export default function Input ({ heading, placeholder, inputStyle }) {
+import Save from '../../../components/Save'
+export default function Form () {
   return (
-    <form action="" className='w-[224px] h-[78px] border  border-border_color rounded-lg overflow-hidden bg-soft_color items-center flex flex-col gap-4'>
-      <label className='bg-primary w-full h-[38px] flex items-center justify-center text-soft_color'
-        htmlFor="">{heading}</label>
-      <input className={`w-full h-auto outline-none px-2 text-center -mt-2 ${inputStyle}`}
-        placeholder={placeholder} type="text" />
+    <form className="w-[500px] h-auto rounded-lg2 border border-border_color p-4 flex flex-col gap-4"
+      action="">
+      <label className="FormLabel"
+        htmlFor="Nombre" >Nombre</label>
+      <input className="w-full h-10 px-4 border border-border_color rounded-b-lg outline-none"
+        type="text" />
+
+      <label className="FormLabel"
+        htmlFor="Stock">Stock</label>
+      <input className="w-full h-10 px-4 border border-border_color rounded-b-lg outline-none"
+        type="text" />
+
+      <label className="FormLabel"
+        htmlFor="Stock Minimo">Stock Minimo</label>
+      <input className="w-full h-10 px-4 border border-border_color rounded-b-lg outline-none"
+        type="text" />
+      <label className="FormLabel"
+        htmlFor="Precio Unitario">Precio Unitario</label>
+      <input className="w-full h-10 px-4 border border-border_color rounded-b-lg outline-none"
+        type="text" />
+
+      <label className="FormLabel"
+        htmlFor="Costo Unitario">Costo Unitario</label>
+      <input className="w-full h-10 px-4 border border-border_color rounded-b-lg outline-none"
+        type="text" />
+
+      <label className="FormLabel"
+        htmlFor="Descuento">Descuento</label>
+      <input className="w-full h-10 px-4 border border-border_color rounded-b-lg outline-none"
+        type="text" />
+      <Save/>
+
     </form>
   )
 }
