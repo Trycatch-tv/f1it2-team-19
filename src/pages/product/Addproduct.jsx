@@ -23,5 +23,6 @@ export default function Addproduct () {
         <button className='bg-primary w-[220px] h-[38px] rounded-lg2 text-soft_color mt-2'>Guardar</button>
       </div>
     </section>
+
   )
 }

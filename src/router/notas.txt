@@ -1,0 +1,38 @@
+<Route path="/" element={ <Login/>}/>
+
+      <Route path='/loginy' element={<Login />} />
+
+      <Route path="/home" element={ <Home/>}/>
+
+      <Route path='/productos' element={<Producto />} >
+        <Route
+          path='crear-producto'
+          element={<NuevoProducto />}
+        />
+        <Route
+          path=':id'
+          element={<ProductoID />}
+        />
+        <Route
+          path='editar/:id'
+          element={<EditarProducto />}
+        />
+      </ Route>
+
+      <Route path='/inventario'element={<Inventario />}>
+        <Route
+          path='nuevo-inventario'
+          element={<NuevoInventario />}
+        />
+        <Route
+          path='editar/:id'
+          element={<EditarInventario/>}
+        />
+      </Route>
+
+      <Route path='/usuario' element={<Usuario />} >
+        <Route
+          path='nuevo-usuario'
+          element={<NuevoUsuario />}
+        />
+      </Route> */}
