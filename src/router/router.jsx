@@ -1,29 +1,28 @@
 import { Route, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
+import Layout from '../layout/Layout'
+import Login from '../pages/login/Login'
+// import Producto from '../pages/productos/Producto'
+import Home from '../pages/home/home'
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route element={'estados globales'}>
-      {/* raiz */}
+    <Route element={<Layout />}>
+
       <Route path="/" element={ <Login/>}/>
 
-      {/* ==================================== */}
-      {/* Login */}
       <Route index element={<Login />} />
 
-      {/* ==================================== */}
-      {/* home */}
       <Route path="/home" element={ <Home/>}/>
 
-      {/* ==================================== */}
-      {/* Producto */}
-      <Route path='/productos' element={<Productos />} >
+{/*
+      <Route path='/productos' element={<Producto />} >
         <Route
-          path='crear-producto' // crear producto
+          path='crear-producto'
           element={<NuevoProducto />}
         />
         <Route
-          path=':id' // ver producto
-          element={<ProyectoID />}
+          path=':id'
+          element={<ProductoID />}
         />
         <Route
           path='editar/:id'
@@ -31,8 +30,6 @@ export const router = createBrowserRouter(
         />
       </ Route>
 
-        {/* ==================================== */}
-        {/* inventario */}
       <Route path='/inventario'element={<Inventario />}>
         <Route
           path='nuevo-inventario'
@@ -44,14 +41,12 @@ export const router = createBrowserRouter(
         />
       </Route>
 
-      {/* ==================================== */}
-      {/* Usuario */}
       <Route path='/usuario' element={<Usuario />} >
         <Route
           path='nuevo-usuario'
           element={<NuevoUsuario />}
         />
-      </Route>
+      </Route> */}
     </Route>
   )
 )
