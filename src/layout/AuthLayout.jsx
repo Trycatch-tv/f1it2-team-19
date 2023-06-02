@@ -3,10 +3,10 @@ import Navbar from '../components/navbar/Navbar'
 
 const AuthLayout = () => {
   return (
-    <div>
+    <main className='overflow-hidden max-h-screen w-full'>
       <Navbar/>
       <Outlet/>
-    </div>
+    </main>
   )
 }
 export default AuthLayout
