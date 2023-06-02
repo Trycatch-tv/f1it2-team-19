@@ -1,5 +1,5 @@
 import Input from './components/Input'
-export default function AddInventory () {
+export default function Addinventory () {
   return (
     <section className="w-full h-[468px] max-w-7xl p-8 border-2 border-border_color rounded-lg flex justify-center items-center relative">
       <div className='w-4/5 h-auto flex flex-wrap gap-20 items-center'>
