@@ -1,6 +1,6 @@
-import Input from './Components/Input'
-import Form from './Components/Form'
-export default function AddProduct () {
+import Input from './components/Input'
+import Form from './components/Form'
+export default function Addproduct () {
   return (
     <section className="w-full h-[468px] p-8 border-2 border-border_color rounded-lg2 flex">
       <div className="w-4/5 flex flex-wrap gap-20">
