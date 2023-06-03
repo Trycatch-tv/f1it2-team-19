@@ -3,7 +3,10 @@ import Save from '../../../components/Save'
 export default function Form () {
   return (
     <form className="w-[500px] h-auto rounded-lg2 border border-border_color p-4 flex flex-col gap-4"
-      action="">
+      action=""
+      onSubmit={e => {
+        e.preventDefault()
+      }}>
       <label className="FormLabel"
         htmlFor="Nombre" >Nombre</label>
       <input className="w-full h-10 px-4 border border-border_color rounded-b-lg outline-none"
