@@ -8,6 +8,9 @@
 .FormSelect {
         @apply w-full h-10 px-4 rounded-b-lg outline-none
     }
+.FormInput{
+  @apply w-full h-10 px-4 border border-border_color rounded-b-lg outline-none
+}
 @tailwind utilities;
 
 *,

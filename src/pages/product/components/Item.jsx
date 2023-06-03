@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import { images } from '../../../constants'
 export default function Item ({ code, nombre, marca, sistema, pantalla, memoria, cpu, gama }) {
   return (
     <article className='w-full h-11 bg-soft_color text-black uppercase rounded-lg2 border border-border_color flex items-center justify-center'>
@@ -12,8 +13,8 @@ export default function Item ({ code, nombre, marca, sistema, pantalla, memoria,
         <li>{cpu}</li>
         <li>{gama}</li>
         <div className="flex gap-4 items-center">
-          <button><img src="src/assets/ri_delete-bin-2-line.png" alt="Delete option" /></button>
-          <button><img src="src/assets/Vector.png" alt="Edit option" /></button>
+          <button><img src={images.deleticon} alt="Delete option" /></button>
+          <button><img src={images.editicon} alt="Edit option" /></button>
         </div>
       </ul>
     </article>
