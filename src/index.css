@@ -3,7 +3,7 @@
 @tailwind base;
 @tailwind components;
 .FormLabel{
-        @apply w-full h-10 -mb-4 px-3 pt-2 bg-primary text-soft_color font-bold rounded-t-lg
+        @apply w-full h-10 -mb-4 pt-2 px-4 bg-primary text-soft_color font-bold rounded-t-lg2
     }
 .FormSelect {
         @apply w-full h-10 px-4 rounded-b-lg outline-none
