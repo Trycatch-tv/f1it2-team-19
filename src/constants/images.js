@@ -4,6 +4,7 @@ import deleticon from '../assets/ri_delete-bin-2-line.png'
 import rieyeicon from '../assets/ri_eye-line.png'
 import lockicon from '../assets/ri_lock-password-line.png'
 import editicon from '../assets/Vector.png'
+import Phone from '../assets/Phone.svg'
 
 export default {
   eyeicon,
@@ -11,5 +12,6 @@ export default {
   deleticon,
   rieyeicon,
   lockicon,
-  editicon
+  editicon,
+  Phone
 }
