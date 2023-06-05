@@ -23,6 +23,8 @@
 
 html {
   scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+  background-color: #EEEBEF;
 }
 
 input[type="search"]::-webkit-search-decoration,
