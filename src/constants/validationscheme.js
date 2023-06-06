@@ -37,7 +37,7 @@ export const advancedSchema = yup.object().shape({
     .required('Required'),
   procesador: yup
     .string()
-    .oneOf(['Qualcom', 'Mediateck', 'Exynos', 'A1'], 'Opcion Invalida')
+    .oneOf(['Qualcom', 'Mediateck', 'Exynos', 'Apple A'], 'Opcion Invalida')
     .required('Required'),
   sistema: yup
     .string()

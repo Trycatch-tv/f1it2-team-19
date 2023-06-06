@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import { Link } from 'react-router-dom'
 import { images } from '../../../constants'
 export default function Item ({ code, nombre, marca, sistema, pantalla, memoria, cpu, gama }) {
   return (
@@ -14,7 +15,9 @@ export default function Item ({ code, nombre, marca, sistema, pantalla, memoria,
         <li>{gama}</li>
         <div className="flex gap-4 items-center">
           <button><img src={images.deleticon} alt="Delete option" /></button>
-          <button><img src={images.editicon} alt="Edit option" /></button>
+          <Link to='/product/edit/:id'>
+            <button><img src={images.editicon} alt="Edit option" /></button>
+          </Link>
         </div>
       </ul>
     </article>

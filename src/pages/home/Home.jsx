@@ -36,26 +36,32 @@ export default function Home () {
           <Card
             title='Productos'
             img='ri_stack-line'
+            route='/product'
           />
           <Card
             title='Inventario'
             img='ri_file-chart-line'
+            route='/inventory'
           />
           <Card
             title='Categorias'
             img='ri_list-indefinite'
+            route=''
           />
           <Card
             title='Crear Producto'
             img='ri_add-circle-line'
+            route='/product/new-product'
           />
           <Card
             title='Crear Inventario'
             img='ri_add-circle-line'
+            route='/inventory/new-inventory'
           />
           <Card
             title='Registrar Usuarios'
             img='ri_admin-line'
+            route='/user'
           />
         </article>
       </div>

@@ -60,7 +60,7 @@ export default function form () {
             <option value='Qualcom'>Qualcom</option>
             <option value='Mediateck'>Mediateck</option>
             <option value='Exynos'>Exynos</option>
-            <option value='A1'>A1</option>
+            <option value='Apple A'>Apple A</option>
           </CustomSelect>
           <CustomSelect
             label='Sistema'
