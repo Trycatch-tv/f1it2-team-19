@@ -14,6 +14,7 @@ import Editinventory from '../pages/inventory/Editinventory'
 import User from '../pages/user/User'
 import Newuser from '../pages/user/Newuser'
 import Edituser from '../pages/user/Edituser'
+import Categories from '../pages/categories/Categories'
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -45,6 +46,8 @@ export const router = createBrowserRouter(
         <Route path='/user' element={<User />} />
         <Route path='/user/new-usuario' element={<Newuser />} />
         <Route path='/user/edit/:id' element={<Edituser />} />
+        {/* Categories */}
+        <Route path='/categories' element={<Categories/>} />
       </Route>
     </Route>
   )

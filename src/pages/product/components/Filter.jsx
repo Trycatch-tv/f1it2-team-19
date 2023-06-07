@@ -22,7 +22,8 @@ export default function Filter () {
     >
       {(props) => (
         <Form className="w-full h-10 text-soft_color  flex justify-between">
-          <div className='w-auto h-auto rounded-lg2 px-4 ml-40  bg-primary flex items-center gap-4'>
+          <h1 className='text-lg text-black font-medium'>Producto</h1>
+          <div className='w-auto h-auto rounded-lg2 px-4 bg-primary flex items-center gap-4'>
             <Select name='marca'
               placeholder='Por Favor Seleccione Una Opcion'>
               <option value="">Marca</option>
