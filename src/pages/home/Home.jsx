@@ -46,7 +46,7 @@ export default function Home () {
           <Card
             title='Categorias'
             img='ri_list-indefinite'
-            route=''
+            route='/categories'
           />
           <Card
             title='Crear Producto'
